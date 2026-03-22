@@ -1,0 +1,83 @@
+:root {
+    --color-primario: #fcba03;
+    --color-secundario: #b35f2b;
+    --color-terciario: #2e91d9;
+    --texto: #f5f2fc;
+    --fondo: #11102b;
+    --detalles: #fcfbfa;
+    --gradiente1: #e2ffa9;
+    --gradiente2: #b5b01d;
+    --gradiente3: #e38640;
+    --gradiente4: #9c3116;
+    --gradiente5: #32e6da;
+    --gradiente6: #0b7dbf;
+    --transparente: rgba(0, 0, 0, 0.35);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--texto);
+    background-color: var(--fondo);
+}
+
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+section {
+    width: 100%;
+    padding: 40px 30px;
+    margin: 20px 0;
+    border: 2px solid var(--detalles);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 55vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 1.9rem;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seccion1 {
+    background-image: linear-gradient(var(--color-primario), var(--transparente)), url("img/niko.png");
+}
+
+.seccion2 {
+    background-image: linear-gradient(var(--color-secundario), var(--transparente)), url("img/niko2.png");
+}
+
+.seccion3 {
+    background-image: linear-gradient(var(--color-terciario), var(--transparente)), url("img/niko3.png");
+}
+
+.boton1 {
+    background: linear-gradient(135deg, var(--gradiente1), var(--gradiente2));
+}
+
+.boton2 {
+    background: linear-gradient(135deg, var(--gradiente3), var(--gradiente4));
+}
+
+.boton3 {
+    background: linear-gradient(135deg, var(--gradiente5), var(--gradiente6));
+}
