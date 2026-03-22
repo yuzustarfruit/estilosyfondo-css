@@ -32,9 +32,7 @@ h1 {
 }
 
 section {
-    width: 100%;
     padding: 40px 30px;
-    margin: 20px 0;
     border: 2px solid var(--detalles);
     border-radius: 12px;
     display: flex;
@@ -47,6 +45,9 @@ section {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    flex-wrap: wrap;
+    max-width: 80em;
+    margin: 3em auto;
 }
 
 h2 {
@@ -76,6 +77,10 @@ p {
 
 .boton2 {
     background: linear-gradient(135deg, var(--gradiente3), var(--gradiente4));
+}
+
+.boton3 {
+    background: linear-gradient(135deg, var(--gradiente5), var(--gradiente6));
 }
 
 .boton3 {
