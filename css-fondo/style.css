@@ -59,6 +59,11 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: var(--fondo);
+}
+
 .seccion1 {
     background-image: linear-gradient(var(--color-primario), var(--transparente)), url("img/niko.png");
 }
@@ -77,10 +82,6 @@ p {
 
 .boton2 {
     background: linear-gradient(135deg, var(--gradiente3), var(--gradiente4));
-}
-
-.boton3 {
-    background: linear-gradient(135deg, var(--gradiente5), var(--gradiente6));
 }
 
 .boton3 {
